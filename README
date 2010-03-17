@@ -1,1 +1,4 @@
 Adds to form labels the hability to search for the label in i18n files as active record attributes.
+To use it in RoR projects, just place the file in the lib directory and add the following line in the end of envoronment.rb:
+
+require "label_i18n.rb"
